@@ -1,0 +1,8 @@
+[
+  "[FAIL] anon #/library: loginBtn=true isolationNote=true personalContent=true len=158",
+  "[FAIL] anon #/tracker: loginBtn=true isolationNote=true personalContent=true len=158",
+  "[FAIL] anon #/stats: loginBtn=true isolationNote=true personalContent=true len=158",
+  "[FAIL] anon #/settings: loginBtn=true isolationNote=true personalContent=true len=158",
+  "[INFO] detail #/anime/21: h1=\"null\" snippet=\"A AnimeHub 首页 动漫库 排期表 收藏库 追番 统计 设置 我的收藏 个人版 · 预览 登录 未找到该作品。 去动漫库\"",
+  "[INFO] search '进击': cards=14 snippet=\"A AnimeHub 首页 动漫库 排期表 收藏库 追番 统计 设置 我的收藏 个人版 · 预览 登录 动漫库 精选日本 TV 动画目录，支持中文 / 日文 / 罗马音 / 英文检索，并按形式、状态、年份、标签与排序自由筛选。 当前默认按「最近更新」排序：展示本季与最近仍在连载的日本 TV 动画，按开播时间倒序；多\""
+]
