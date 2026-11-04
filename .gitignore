@@ -1,0 +1,14 @@
+# 依赖与构建产物（服务器上重新安装/构建）
+node_modules/
+dist/
+
+# 开发期产物 / 截图 / 报告
+screenshots/
+*.png
+bgm_data_latest.json
+phase1/
+phase2/
+phase3/
+phase4/
+phase5/
+*.md
