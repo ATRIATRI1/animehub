@@ -1,0 +1,10 @@
+[SHOT] desktop-home-aurora: 1280x800 theme=aurora -> screenshots/p55/desktop-home-aurora.png
+[SHOT] desktop-home-sakura: 1280x800 theme=sakura -> screenshots/p55/desktop-home-sakura.png
+[SHOT] desktop-schedule-aurora: 1280x800 theme=aurora -> screenshots/p55/desktop-schedule-aurora.png
+[SHOT] desktop-detail-aurora: 1280x800 theme=aurora -> screenshots/p55/desktop-detail-aurora.png
+[SHOT] mobile390-home-aurora: 390x844 theme=aurora -> screenshots/p55/mobile390-home-aurora.png
+[SHOT] mobile390-home-sakura: 390x844 theme=sakura -> screenshots/p55/mobile390-home-sakura.png
+[SHOT] mobile390-schedule-aurora: 390x844 theme=aurora -> screenshots/p55/mobile390-schedule-aurora.png
+[SHOT] mobile390-library-login: 390x844 theme=aurora -> screenshots/p55/mobile390-library-login.png
+[SHOT] mobile375-home-aurora: 375x812 theme=aurora -> screenshots/p55/mobile375-home-aurora.png
+[SHOT] mobile430-home-aurora: 430x932 theme=aurora -> screenshots/p55/mobile430-home-aurora.png
