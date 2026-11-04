@@ -1,0 +1,19 @@
+[NAV] sidebar items: ["首页","排期表","动漫库","收藏库","统计","设置","首页","排期表","动漫库","收藏库","统计","设置"]
+[TRACKER] has 接下来更新: true
+[TRACKER] has 本周已更: true
+[TRACKER] has 我的追番进度(old): false
+[TRACKER] h1 首页: true
+[TRACKER] pageErrors: 0
+[SEARCH] sort 高分 present: true
+[SEARCH] sort 经典动画 removed: true
+[SEARCH] sort 完结动画 removed: true
+[SEARCH] 改编 group present: true
+[SEARCH] tag 异世界 present: true
+[SEARCH] tag 剧情 present: true
+[SEARCH] tag 纯爱 present: true
+[SEARCH] tag 漫画改 MOVED out of tags (should be absent in tag row but present in 改编): true
+[SEARCH] pageErrors: 0
+[SEARCH] tag order 异世界 before 战斗: {"i1":26,"i2":28,"ordered":true}
+[MOBILE 375] /tracker overflow=0px
+[MOBILE 390] /tracker overflow=0px
+[MOBILE 430] /search overflow=0px
