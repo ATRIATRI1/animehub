@@ -1,0 +1,24 @@
+import { chromium } from 'playwright';
+const BASE = 'https://animehub-06330.app.workbuddy.host/?sharecode=QIIU6FJCS6';
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+const p = await ctx.newPage();
+const logs = [];
+p.on('console', (m) => logs.push(`[${m.type()}] ${m.text()}`));
+await p.goto(BASE + '#/', { waitUntil: 'domcontentloaded' }).catch(() => {});
+await p.waitForTimeout(2500);
+// 点击顶栏“登录”
+const loginBtn = p.getByText('登录', { exact: true }).first();
+await loginBtn.waitFor({ timeout: 8000 });
+await loginBtn.click();
+await p.waitForTimeout(9000);
+const url = p.url();
+const bodyText = (await p.locator('body').innerText().catch(() => '')).replace(/\s+/g, ' ').slice(0, 300);
+await p.screenshot({ path: 'screenshots/acceptance/login-redirect.png' });
+console.log('=== 点击登录后 URL ===');
+console.log(url);
+console.log('=== 页面文本片段 ===');
+console.log(bodyText);
+console.log('=== console ===');
+console.log(logs.slice(-10).join('\n'));
+await b.close();
