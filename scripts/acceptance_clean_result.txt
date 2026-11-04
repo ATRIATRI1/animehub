@@ -1,0 +1,7 @@
+[FAIL] detail #/anime/1: h1="null" len=64 hasImg=false errs=0
+   snippet: A AnimeHub 首页 动漫库 排期表 收藏库 追番 统计 设置 我的收藏 个人版 · 预览 登录 未找到该作品。 去动漫库
+[PASS] anon #/library: loginScreen=true dataLeak=false (navChrome=true)
+[PASS] anon #/tracker: loginScreen=true dataLeak=false (navChrome=true)
+[PASS] anon #/stats: loginScreen=true dataLeak=false (navChrome=true)
+[PASS] anon #/settings: loginScreen=true dataLeak=false (navChrome=true)
+[PASS] ACCESS CONTROL SUMMARY: anon cannot reach personal data
