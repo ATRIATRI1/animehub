@@ -6,6 +6,7 @@ import { ThemeToggle } from '../ui/ThemeToggle';
 import { signInWithWorkBuddy, signOut } from '../../services/auth';
 import { useAuth } from '../../context/AuthContext';
 import { showToast } from '../../lib/toast';
+import { CLOUD_MODE } from '../../lib/env';
 
 export function Topbar() {
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ export function Topbar() {
           <Bell size={18} />
         </IconButton>
         <ThemeToggle />
-        {user ? (
+        {CLOUD_MODE && (user ? (
           <button
             onClick={() => {
               if (confirm('确定退出登录吗？')) signOut();
@@ -63,7 +64,7 @@ export function Topbar() {
           >
             登录
           </button>
-        )}
+        ))}
       </div>
     </header>
   );
