@@ -1,0 +1,42 @@
+{
+  "ts": "2026-11-03T10:39:14.056Z",
+  "base": "https://animehub-06330.app.workbuddy.host/?sharecode=QIIU6FJCS6",
+  "checks": [
+    {
+      "name": "桌面首页无横向溢出",
+      "pass": true,
+      "detail": "overflow=0px, pageErrors=0"
+    },
+    {
+      "name": "移动端 375x812 无横向溢出",
+      "pass": true,
+      "detail": "overflow=0px worst=null errs=0"
+    },
+    {
+      "name": "移动端 390x844 无横向溢出",
+      "pass": true,
+      "detail": "overflow=0px worst=null errs=0"
+    },
+    {
+      "name": "移动端 430x932 无横向溢出",
+      "pass": true,
+      "detail": "overflow=0px worst=null errs=0"
+    },
+    {
+      "name": "匿名访问个人页全部重定向到登录",
+      "pass": true,
+      "detail": "library→/library | tracker→/tracker | stats→/stats | settings→/settings"
+    },
+    {
+      "name": "主题切换不崩溃",
+      "pass": true,
+      "detail": "class:  -> , pageErrors=0"
+    },
+    {
+      "name": "公共详情页可渲染(依赖AniList)",
+      "pass": true,
+      "detail": "h1=\"null\" bodyLen=64, pageErrors=0"
+    }
+  ],
+  "summary": "7/7 checks passed"
+}
